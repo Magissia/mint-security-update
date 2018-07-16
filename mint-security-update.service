@@ -3,3 +3,4 @@ Description=Mint security updates
 
 [Service]
 ExecStart=mintupdate-cli -sy upgrade
+IOWeight=20
