@@ -1,0 +1,5 @@
+[Unit]
+Description=Mint security updates
+
+[Service]
+ExecStart=mintupdate-cli -sy upgrade
