@@ -4,3 +4,6 @@ Description=Mint security updates
 [Service]
 ExecStart=mintupdate-cli -sy upgrade
 IOWeight=20
+CPUWeight=20
+MemoryHigh=256M
+MemorySwapMax=1G
