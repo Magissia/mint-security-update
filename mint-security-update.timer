@@ -1,0 +1,9 @@
+[Unit]
+Description=Mint security update schedule
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=24h
+
+[Install]
+WantedBy=multi-user.target
