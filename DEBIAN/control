@@ -1,0 +1,11 @@
+Package: mint-security-update
+Version: 0.0.1
+Architecture: all
+Essential: no
+Section: admin
+Priority: extra
+Depends: mintupdate (>=5.4.0)
+Enchances: mintupdate
+Maintainer: Magissia
+Description: Service to automatically download and install security updates.
+Homepage: https://github.com/Magissia/mint-security-update
